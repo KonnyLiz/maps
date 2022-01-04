@@ -1,0 +1,7 @@
+Para Angular Material
+    ng add @angular/material
+
+    Ahi mismo sugiere usar un theme, la tipografia de Material y las animaciones.
+
+Para animaviones al hacer touch 
+    npm install --save angular-hammer
