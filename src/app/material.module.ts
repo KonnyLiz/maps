@@ -8,6 +8,7 @@ import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [],
@@ -15,13 +16,15 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     CommonModule,
     MatToolbarModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule
   ],
   // exportamos los modulos que se ocuparan en mis componentes
   exports: [
     MatToolbarModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule
   ]
 })
 export class MaterialModule { }
